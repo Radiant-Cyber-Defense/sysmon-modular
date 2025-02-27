@@ -1582,6 +1582,7 @@
         <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">software\microsoft\windows\currentversion\policies\explorer</TargetObject>
         <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">software\WOW6432Node\microsoft\windows\currentversion\immersiveshell</TargetObject>
         <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">system\currentcontrolset\control\terminal server</TargetObject>
+        <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">system\currentcontrolset\control\lsa\DisableRestrictedAdmin</TargetObject>
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="contains">software\microsoft\windows\currentversion\explorer\shell folders\startup</TargetObject>
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="begin with">hklm\software\microsoft\command processor\autorun</TargetObject>
         <TargetObject name="technique_id=T1548.002,technique_name=Bypass User Access Control" condition="contains">\mscfile\shell\open\command</TargetObject>
