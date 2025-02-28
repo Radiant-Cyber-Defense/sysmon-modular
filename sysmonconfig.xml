@@ -1586,6 +1586,7 @@
         <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">software\policies\microsoft\windows defender security center\notifications</TargetObject>
         <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">software\policies\microsoft\secondaryauthenticationfactor</TargetObject>
         <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">software\policies\microsoft\fido</TargetObject>
+        <TargetObject name="technique_id=T1112,technique_name=Modify Registry" condition="contains">software\policies\microsoft\windows nt\terminal services</TargetObject>
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="contains">software\microsoft\windows\currentversion\explorer\shell folders\startup</TargetObject>
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="begin with">hklm\software\microsoft\command processor\autorun</TargetObject>
         <TargetObject name="technique_id=T1548.002,technique_name=Bypass User Access Control" condition="contains">\mscfile\shell\open\command</TargetObject>
