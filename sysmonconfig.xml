@@ -1158,6 +1158,7 @@
         <CallTrace name="technique_id=T1003,technique_name=Credential Dumping" condition="contains">dbghelp.dll</CallTrace>
         <CallTrace name="technique_id=T1003,technique_name=Credential Dumping" condition="contains">dbgcore.dll</CallTrace>
         <TargetImage condition="contains">Desktop</TargetImage>
+        <TargetImage condition="contains">Notepad.exe</TargetImage>
         <Rule groupRelation="and">
           <TargetImage name="technique_id=T1003,technique_name=Credential Dumping" condition="is">C:\Windows\system32\csrss.exe</TargetImage>
           <GrantedAccess>0x1F1FFF</GrantedAccess>
